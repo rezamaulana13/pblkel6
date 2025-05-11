@@ -1,6 +1,6 @@
 @extends('layouts.app_admin')
 @section('title')
-    <title>Detail Nelayan Page - Fishapp</title>
+    <title>Detail Nelayan Page - RaraCookies</title>
 @endsection
 
 @section('content')
@@ -156,7 +156,7 @@
                     <a href="{{route('admin.dashboard')}}">
                         <button type="button" class="btn btn-secondary w-50">Kembali</button>
                     </a>
-                </div>                
+                </div>
                    @endif
 
                 </form>

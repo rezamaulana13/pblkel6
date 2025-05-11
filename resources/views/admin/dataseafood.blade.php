@@ -1,6 +1,6 @@
 @extends('layouts.app_admin')
 @section('title')
-<title>Data Seafood Page - Fishapp</title>
+<title>Data Seafood Page - RaraCookies</title>
 @endsection
 
 @section('content')
@@ -24,7 +24,7 @@
                     <p class="card-text mb-3" style="color: green">status {{$se->status}}</p>
                     <div class="d-flex gap-1">
                         <a href="{{route('admin.view.detail.seafood', ['id' => $se->kode_seafood])}}">
-                            <button class="btn btn-sm btn-primary">Detail</button> 
+                            <button class="btn btn-sm btn-primary">Detail</button>
                         </a>
                     </div>
                 </div>

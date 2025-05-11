@@ -1,6 +1,6 @@
 @extends('layouts.app_admin')
 @section('title')
-<title>Data Nelayan Page - Fishapp</title>
+<title>Data Nelayan Page - RaraCookies</title>
 <style>
     .text-center {
     text-align: center;
@@ -33,7 +33,7 @@
                     <th>No</th> <!-- Kolom nomor -->
                     <th>Name</th>
                     <th>Email</th>
-                   
+
                 </tr>
             </thead>
             <tfoot>
@@ -41,7 +41,7 @@
                     <th>No</th> <!-- Kolom nomor -->
                     <th>Name</th>
                     <th>Email</th>
-                    
+
                 </tr>
             </tfoot>
             <tbody>
@@ -53,7 +53,7 @@
                 </tr>
                 @endforeach
             </tbody>
-        </table>        
+        </table>
     </div>
 </div>
 @endsection

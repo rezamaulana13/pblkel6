@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-<title>Article - Fishapp</title>
+<title>Article - RaraCookies</title>
 @endsection
 
 @section('content')

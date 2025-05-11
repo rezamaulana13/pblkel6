@@ -1,6 +1,6 @@
 @extends('layouts.app_nelayan')
 @section('title')
-<title>Nelayan Setting Page - Fishapp</title>
+<title>Nelayan Setting Page - RaraCookies</title>
 @endsection
 
 @section('content')

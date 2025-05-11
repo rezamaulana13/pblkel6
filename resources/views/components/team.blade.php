@@ -63,17 +63,17 @@
             <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                 <div class="team-item bg-light text-center">
                     <div class="overflow-hidden">
-                        <img class="img-fluid" src="img/WhatsApp Image 2023-12-26 at 11.21.41_39fb63ca.jpg" alt="">
+                        <img class="img-fluid" src="img/Met.jpeg" alt="">
                     </div>
                     <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                         <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                            <a class="btn btn-sm-square btn-primary mx-1" href="https://github.com/MuhamadRois07"><i class="bi bi-github"></i></a>
-                            <a class="btn btn-sm-square btn-primary mx-1" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=muhamadrois0703@gmail.com"><i class="bi bi-google"></i></a>
-                            <a class="btn btn-sm-square btn-primary mx-1" href="https://www.instagram.com/utit.666?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-sm-square btn-primary mx-1" href="https://github.com/rezamaulana13"><i class="bi bi-github"></i></a>
+                            <a class="btn btn-sm-square btn-primary mx-1" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=rezamaulanaply@gmail.com"><i class="bi bi-google"></i></a>
+                            <a class="btn btn-sm-square btn-primary mx-1" href="https://www.instagram.com/rzmln13"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="p-4">
-                        <h5 class="mb-0">Muhamad Rois</h5>
+                        <h5 class="mb-0">Reza Maulana Nehru</h5>
                         <small style="color: black">Database Engineer</small>
                     </div>
                 </div>

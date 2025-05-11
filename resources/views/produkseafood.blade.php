@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    <title>Seafood Page - Fishapp</title>
+    <title>Seafood Page - RaraCookies</title>
 @endsection
 
 @section('content')
@@ -96,7 +96,7 @@
             </div>
         </a>
     </div>
-    
+
    <div class="modal fade" id="productModal{{ $se->kode_seafood }}" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -145,7 +145,7 @@
                 <a href="{{route('hubungi.penjual.seafood', ['id' =>$se->nelayan->detailProfile->id ])}}" class="btn btn-sm btn-primary text-white">
                                         <i class="bi bi-telephone"></i> Hubungi Penjual
                                     </a>
-    
+
                                     <a href="{{ route('beliseafood', ['kode_seafood' => $se->kode_seafood]) }}" class="btn btn-sm btn-success text-white">
                                         <i class="bi bi-cart-plus"></i> Beli
                                     </a>

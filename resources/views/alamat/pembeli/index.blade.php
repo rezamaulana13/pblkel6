@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    <title>Alamat Pengiriman Page - Fishapp</title>
+    <title>Alamat Pengiriman Page - RaraCookies</title>
 @endsection
 
 @section('content')
@@ -171,17 +171,15 @@
                         <label class="form-label" style="color: black">Kabupaten :</label>
                         <div class="col-sm-10">
                             <select class="form-select" id="cityseafood2" aria-label="city" name="city" required>
-                                <option disabled>Pilih</option>
-                                @if (isset($alamat))
-                                    <option value="{{ $alamat->kabupaten }}" selected>{{ $alamat->kabupaten }}
-                                    </option>
-                                @else
-                                    <option selected disabled>Pilih Kabupaten</option>
-                                @endif
-                                </option>
+                                <option selected disabled>Pilih Kabupaten</option>
+                                @foreach ($alamat as $item)
+                                    <option value="{{ $item->kabupaten }}">{{ $item->kabupaten }}</option>
+                                @endforeach
                             </select>
                         </div>
                     </div>
+                </div>
+
                 </div>
 
                 <div class="mb-3">

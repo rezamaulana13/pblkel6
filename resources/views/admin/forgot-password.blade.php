@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-<title>Forgot Password Admin Page - Fishapp</title>
+<title>Forgot Password Admin Page - RaraCookies</title>
 
 <style>
     .custom-title {
@@ -23,7 +23,7 @@
                     <input type="email" class="form-control" id="email" name="email" required placeholder="Masukkan email Anda">
                 </div>
 
-                <button type="submit" class="btn btn-primary w-100 mb-3">Send Password Reset Link</button>        
+                <button type="submit" class="btn btn-primary w-100 mb-3">Send Password Reset Link</button>
             </form>
         </div>
     </div>
@@ -37,7 +37,7 @@
      document.getElementById('toggle-password').addEventListener('click', function() {
             const passwordInput = document.getElementById('password');
             const eyeIcon = document.getElementById('eye-icon');
-    
+
             if (passwordInput.type === 'password') {
                 passwordInput.type = 'text'; // Tampilkan password
                 eyeIcon.classList.remove('bi-eye'); // Ganti ikon mata

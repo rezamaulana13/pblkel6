@@ -1,6 +1,6 @@
 @extends('layouts.app_admin')
 @section('title')
-<title>Admin Dashboard Page - Fishapp</title>
+<title>Admin Dashboard Page - RaraCookies</title>
 <style>
     .text-center {
     text-align: center;
@@ -139,7 +139,7 @@
                             <button class="btn btn-sm btn-warning">
                                 <i class="fa-solid fa-circle-info"></i> Detail
                             </button>
-                        </a>                        
+                        </a>
                     </td>
                     <td class="text-center">
                         <img src="{{ asset('storage/fotonelayan/' . $nelayan->detailProfile->foto) }}" alt="Foto Nelayan" class="rounded img-thumbnail" style="width: 80px; height: 80px; object-fit: cover;">
@@ -147,7 +147,7 @@
                 </tr>
                 @endforeach
             </tbody>
-        </table>        
+        </table>
     </div>
 </div>
 @endsection

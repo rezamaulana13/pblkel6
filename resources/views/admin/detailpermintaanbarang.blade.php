@@ -1,7 +1,7 @@
 @extends('layouts.app_admin')
 
 @section('title')
-    <title>Detail Barang Sewa {{ $barang->nama }} Page - Fishapp</title>
+    <title>Detail Barang Sewa {{ $barang->nama }} Page - RaraCookies</title>
     <style>
         .card-title {
             font-size: 1.2rem; /* Ukuran judul lebih kecil */

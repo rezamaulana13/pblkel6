@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    <title>Pesanan Seafood - Fishapp</title>
+    <title>Pesanan Seafood - RaraCookies</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -310,7 +310,7 @@
                                         // Pastikan keranjang ada
                                         $firstKeranjang = $pe->keranjangs->first();
                                         $existingRating = null;
-                                        
+
                                         if ($firstKeranjang && $firstKeranjang->seafood && $firstKeranjang->seafood->rating) {
                                             // Ambil rating jika ada
                                             $existingRating = $firstKeranjang->seafood->rating->first();
